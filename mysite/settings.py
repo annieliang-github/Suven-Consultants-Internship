@@ -136,6 +136,3 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 #EMAIL_HOST_PASSWORD = '123456'
 #EMAIL_PORT = 587
 #EMAIL_USE_TLS = True
-
-# configure Django app for Heroku
-django_heroku.settings(locals())
